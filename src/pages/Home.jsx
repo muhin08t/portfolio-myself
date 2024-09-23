@@ -27,15 +27,33 @@ const Home = () => {
   return (
     <div>
 
-<div className="carousel w-full pt-0">
+<div className="carousel w-full pt-0 bg-orange-400">
   <div id="item1" className="carousel-item w-full">
-    <img src="/banner1.jpg" className="w-full h-[400px]" />
+    <div className="w-2/5 flex flex-col items-center  justify-center"> 
+    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
+    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
+    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
+    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    </div>
+    <img src="/banner1.jpg" className="w-3/5 h-[400px]" />
   </div>
   <div id="item2" className="carousel-item w-full">
-  <img src="/banner2.jpg" className="w-full h-[400px]" />
+    <div className="w-2/5 flex flex-col items-center  justify-center"> 
+    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
+    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
+    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
+    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    </div>
+    <img src="/banner2.jpg" className="w-3/5 h-[400px]" />
   </div>
   <div id="item3" className="carousel-item w-full">
-  <img src="/banner1.jpg" className="w-full h-[400px]" />
+    <div className="w-2/5 flex flex-col items-center  justify-center"> 
+    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
+    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
+    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
+    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    </div>
+    <img src="/banner1.jpg" className="w-3/5 h-[400px]" />
   </div>
 </div>
 <div className="flex w-full justify-center gap-2 py-2">
