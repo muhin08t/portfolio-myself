@@ -27,33 +27,33 @@ const Home = () => {
   return (
     <div>
 
-<div className="carousel w-full pt-0 bg-orange-400">
+<div className="carousel w-full pt-0 bg-[#bbd5d6]">
   <div id="item1" className="carousel-item w-full">
-    <div className="w-2/5 flex flex-col items-center  justify-center"> 
-    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
-    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
-    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
-    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    <div className="banner-content-part lg:banner-content-part-lg"> 
+    <h1 className="banner-content-first-title lg:text-2xl">Unlock a World of Stories</h1>
+    <h2 className="banner-content-second-title lg:text-xl">Find your Next favorite Book at </h2>
+    <h2 className="banner-content-third-title lg:text-2xl">Kishore Book House</h2>
+    <button className='banner-content-btn'>Buy book</button>
     </div>
-    <img src="/banner1.jpg" className="w-3/5 h-[400px]" />
+    <img src="/banner1.jpg" className="banner-img-part lg:banner-img-part-lg xl:banner-img-part-xl" />
   </div>
   <div id="item2" className="carousel-item w-full">
-    <div className="w-2/5 flex flex-col items-center  justify-center"> 
-    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
-    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
-    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
-    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    <div className="banner-content-part lg:banner-content-part-lg"> 
+    <h1 className="banner-content-first-title lg:text-2xl">Unlock a World of Stories</h1>
+    <h2 className="banner-content-second-title lg:text-xl">Find your Next favorite Book at </h2>
+    <h2 className="banner-content-third-title lg:text-2xl">Kishore Book House</h2>
+    <button className='banner-content-btn'>Buy book</button>
     </div>
-    <img src="/banner2.jpg" className="w-3/5 h-[400px]" />
+    <img src="/banner2.jpg" className="banner-img-part lg:banner-img-part-lg xl:banner-img-part-xl" />
   </div>
   <div id="item3" className="carousel-item w-full">
-    <div className="w-2/5 flex flex-col items-center  justify-center"> 
-    <h1 className="text-white text-2xl font-bold">Unlock a World of Stories</h1>
-    <h2 className="text-white text-xl font-semibold">Find your Next faourite Book at </h2>
-    <h2 className="text-blue-500 text-2xl font-bold">Kishore Book House</h2>
-    <button className='w-24 h-11 text-white bg-fuchsia-500 rounded-md mt-4'>Buy book</button>
+    <div className="banner-content-part lg:banner-content-part-lg"> 
+    <h1 className="banner-content-first-title lg:text-2xl">Unlock a World of Stories</h1>
+    <h2 className="banner-content-second-title lg:text-xl">Find your Next favorite Book at </h2>
+    <h2 className="banner-content-third-title lg:text-2xl">Kishore Book House</h2>
+    <button className='banner-content-btn'>Buy book</button>
     </div>
-    <img src="/banner1.jpg" className="w-3/5 h-[400px]" />
+    <img src="/banner1.jpg" className="banner-img-part lg:banner-img-part-lg xl:banner-img-part-xl" />
   </div>
 </div>
 <div className="flex w-full justify-center gap-2 py-2">
