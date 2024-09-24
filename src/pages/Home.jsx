@@ -69,7 +69,7 @@ const Home = () => {
         {books.map((item, index) => {
           return (
             <div key={index}>
-              <div className="card mt-10 bg-base-100  w-96 shadow-xl">
+              <div className="card mt-10 bg-base-100 w-96 shadow-xl md:w-80 lg:w-[350px] xl:w-96">
                 <figure>
                   <img
                     className="w-[250px] h-[120px]"
