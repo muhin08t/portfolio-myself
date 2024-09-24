@@ -2,8 +2,8 @@ import React from 'react';
 
 const Error = () => {
     return (
-        <div>
-            <h2>Error found</h2>
+        <div className='py-10 px-32'>
+            <img className='w-1/3 mx-auto text-center my-10 rounded' src="/error.jpg" alt="error image" />
         </div>
     );
 };
