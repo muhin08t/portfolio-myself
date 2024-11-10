@@ -8,6 +8,7 @@ import About from './pages/About';
 import Faq from './pages/Faq';
 import Blog from './pages/Blog';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 const App = () => {
     return (
@@ -15,8 +16,7 @@ const App = () => {
             <Navbar />
             <Home></Home>
             <Skills></Skills>
-            <Blog></Blog>
-            <Faq></Faq>
+            <Projects></Projects>
             <Footer></Footer>
         </>
     );

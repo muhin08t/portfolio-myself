@@ -25,18 +25,16 @@ const Navbar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         <li className='text-black text-lg'> <Link smooth to="#home">Home</Link></li>
-        <li className='text-black text-lg'><Link smooth to="#about">About</Link></li>
         <li className='text-black text-lg'><Link smooth to="#skills">Skills</Link></li>
-        <li className='text-black text-lg'><Link smooth to="#blog">Projects</Link></li>
+        <li className='text-black text-lg'><Link smooth to="#projects">Projects</Link></li>
       </ul>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
         <li className='text-black text-lg'> <Link smooth to="#home">Home</Link></li>
-        <li className='text-black text-lg'><Link smooth to="#about">About</Link></li>
         <li className='text-black text-lg'><Link smooth to="#skills">Skills</Link></li>
-        <li className='text-black text-lg'><Link smooth to="#blog">Projects</Link></li>
+        <li className='text-black text-lg'><Link smooth to="#projects">Projects</Link></li>
     </ul>
   </div>
   <div class="navbar-end"></div>
