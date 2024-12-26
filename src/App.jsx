@@ -9,6 +9,7 @@ import Faq from './pages/Faq';
 import Blog from './pages/Blog';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import ImprovedProjectCard from './components/ImprovedProjectCard';
 
 const App = () => {
     return (
@@ -16,7 +17,8 @@ const App = () => {
             <Navbar />
             <Home></Home>
             <Skills></Skills>
-            <Projects></Projects>
+            {/* <Projects></Projects> */}
+            <ImprovedProjectCard></ImprovedProjectCard>
             <Footer></Footer>
         </>
     );
