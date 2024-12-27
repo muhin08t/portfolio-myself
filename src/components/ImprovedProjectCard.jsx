@@ -10,10 +10,10 @@ const ImprovedProjectCard = () => {
       </div>
       <div className="flex flex-col gap-10">
       <div className="flex gap-10 items-stretch shadow-lg rounded-lg p-10 ">
-        <div className="w-[45%]">
+        <div className="w-[45%] hidden md:block">
           <img className="rounded-lg h-full object-cover" src="/images/img_easy_deals.jpg" alt="" />
         </div>
-        <div className="w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
+        <div className="w-[100%] md:w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Easy Deals</h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Full stack e-commerce web application</li>
@@ -69,10 +69,10 @@ const ImprovedProjectCard = () => {
       </div>
     </div>
     <div className="flex gap-10 items-stretch shadow-lg rounded-lg p-10">
-        <div className="w-[45%]">
+        <div className="w-[45%] hidden md:block">
           <img className="rounded-lg h-full object-cover" src="/images/img_e_learning.jpg" alt="" />
         </div>
-        <div className="w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
+        <div className="w-[100%] md:w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">E-learning</h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Full stack online based learing web application</li>
@@ -127,10 +127,10 @@ const ImprovedProjectCard = () => {
       </div>
     </div>
     <div className="flex gap-10 items-stretch shadow-lg rounded-lg p-10">
-        <div className="w-[45%]">
+        <div className="w-[45%] hidden md:block">
           <img className="rounded-lg h-full object-cover" src="/images/img_book_house.jpg" alt="" />
         </div>
-        <div className="w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
+        <div className="w-[100%] md:w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Book House</h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Front-end web application for a book library</li>
@@ -177,10 +177,10 @@ const ImprovedProjectCard = () => {
       </div>
     </div>
     <div className="flex gap-10 items-stretch shadow-lg rounded-lg p-10">
-        <div className="w-[45%]">
+        <div className="w-[45%] hidden md:block">
           <img className="rounded-lg h-full object-cover" src="/images/img_secret_key.png" alt="" />
         </div>
-        <div className="w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
+        <div className="w-[100%] md:w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Secret key matcher</h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Front-end web application for key validing</li>
@@ -228,10 +228,10 @@ const ImprovedProjectCard = () => {
     </div>
 
     <div className="flex gap-10 items-stretch shadow-lg rounded-lg p-10">
-        <div className="w-[45%]">
+        <div className="w-[45%] hidden md:block">
           <img className="rounded-lg h-full object-cover" src="/images/img_food_heaven.png" alt="" />
         </div>
-        <div className="w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
+        <div className="w-[100%] md:w-[55%] mx-auto shadow-lg rounded-lg px-5 pb-5 flex flex-col">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Food Heaven</h2>
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Front-end web application for displaying food items</li>
