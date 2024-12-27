@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ImprovedProjectCard from './components/ImprovedProjectCard';
+import ProfessionalExperience from './components/ProfessionalExperience';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <Navbar />
             <Home></Home>
             <Skills></Skills>
+            <ProfessionalExperience></ProfessionalExperience>
             {/* <Projects></Projects> */}
             <ImprovedProjectCard></ImprovedProjectCard>
             <Footer></Footer>

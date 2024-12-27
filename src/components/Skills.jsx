@@ -4,8 +4,8 @@ import Card from './Card';
 const Skills = () => {
     return (
       <div id='skills'>
-        <div className="text-center pt-20 pb-6">
-          <h1 className="text-3xl font-bold">My Skills</h1>
+        <div className="text-center pt-20 pb-2">
+          <h1 className="text-3xl italic font-semibold text-blue-600">My Skills</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-14 m-10">
             <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
@@ -169,7 +169,7 @@ const Skills = () => {
                   src="images/icon_firebase.png"
                   alt="Categories"
                 />
-                <h2 className="card-title text-center">Firebas</h2>
+                <h2 className="card-title text-center">Firebase</h2>
               </div>
             </div>
 
