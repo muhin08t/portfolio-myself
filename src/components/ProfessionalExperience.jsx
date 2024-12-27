@@ -15,7 +15,7 @@ const ProfessionalExperience = () => {
   ];
 
   return (
-    <div id="projects" className="mx-10 mb-10">
+    <div id="experience" className="mx-10 mb-10">
            <div className="text-center pt-20 pb-10">
         <h1 className="text-3xl font-semibold italic text-blue-600 mb-3">Professional Experience</h1>
 
