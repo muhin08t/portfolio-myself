@@ -35,6 +35,39 @@ const Skills = () => {
               <div className="card-body flex flex-col items-center">
                 <img
                   className="w-16 h-16"
+                  src="images/icon_javascript.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Javascript</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_html.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">HTML</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_css.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">CSS</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
                   src="images/icon_nodejs.png"
                   alt="Categories"
                 />
