@@ -10,7 +10,7 @@ const Home = () => {
 
   const handleClick = () => {
     console.log("btn click");
-    window.open('Resume_Mohiuddin_Bhuiyan.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/16sg3WSzXeNC2iAAVHcDTJkxnZXBlKKzZ/view?usp=drive_link', '_blank');
   };
 
   books.map((book) => {
@@ -32,11 +32,11 @@ const Home = () => {
           <h1 className="text-4xl font-semibold pt-3">
             <span className="text-purple-400"> Mohiuddin</span> Bhuiyan
           </h1>
-          <p className="pt-5">
-            In order to prove my innovation & versatility, I prefer to work with them who <br></br>
-            values enthusiasm & creativity so that I can maximize my potentiality. I am a  <br></br>
-            fast paced learner and enthusiast of new technologies. Capable of working <br></br>
-            on  a team with people at all levels as well as working independently.
+          <p className="pt-5 text-justify max-w-[600px]">
+          Experienced React Developer with a strong background in Android development.
+          I have 4.5 years of experience as an Android developer in a software company. I
+          have a deep understanding of front-end and back-end technologies. 
+          I specialize in creating seamless, user-friendly, and highly functional digital experiences.
           </p>
           <div className="flex pt-8">
             <button onClick={() => {handleClick()}} className=" bg-purple-500 hover:bg-purple-600 text-white italic font-semibold py-2 px-6 rounded-full">
