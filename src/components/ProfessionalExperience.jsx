@@ -6,11 +6,27 @@ const ProfessionalExperience = () => {
       role: "Android Developer",
       company: "TopOfStack Software, Dhaka",
       duration: "02/02/2015 – 22/06/2016",
+      description: "",
     },
     {
       role: "Android Developer",
       company: "BJIT Limited, Dhaka",
       duration: "27/06/2016 – 18/06/2019",
+      description: "",
+    },
+
+    {
+      role: "Career break",
+      company: "Entrepreneur",
+      duration: "19/06/2019 – present",
+      description: "For family reasons, I left my job and moved to my hometown. Here, as an entreprenur, I started local business.",
+    },
+
+    {
+      role: "Freelancer",
+      company: "React Developer",
+      duration: "20/11/2023 – present",
+      description: "",
     },
   ];
 
@@ -28,6 +44,9 @@ const ProfessionalExperience = () => {
           <div>
             <h2 className="text-lg font-semibold">{exp.role}</h2>
             <p className="text-gray-600">{exp.company}</p>
+            {exp.description && (
+            <p className="text-black-500 mt-2">{exp.description}</p>
+  )}
           </div>
           <p className="text-gray-500">{exp.duration}</p>
         </div>

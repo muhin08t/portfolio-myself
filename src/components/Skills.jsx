@@ -8,6 +8,107 @@ const Skills = () => {
           <h1 className="text-3xl italic font-semibold text-blue-600">My Skills</h1>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-14 m-10">
+
+          <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_react.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">React</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_nextjs.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Next JS</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_nodejs.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Node JS</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_expressjs.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Express</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_tailwindcss.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Tailwind</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_daisyui.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">DaisyUI</h2>
+              </div>
+            </div>
+
+            
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_bottstrap.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Bootstrap</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_mongodb.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">MongoDB</h2>
+              </div>
+            </div>
+
+            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
+              <div className="card-body flex flex-col items-center">
+                <img
+                  className="w-16 h-16"
+                  src="images/icon_firebase.png"
+                  alt="Categories"
+                />
+                <h2 className="card-title text-center">Firebase</h2>
+              </div>
+            </div>
+
             <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
               <div className="card-body flex flex-col items-center">
                 <img
@@ -52,93 +153,6 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_react.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">React</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_nodejs.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Node JS</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_nextjs.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Next JS</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_expressjs.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Express</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_mongodb.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">MongoDB</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_tailwindcss.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Tailwind</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_daisyui.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">DaisyUI</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_bottstrap.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Bootstrap</h2>
-              </div>
-            </div>
 
             <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
               <div className="card-body flex flex-col items-center">
@@ -159,17 +173,6 @@ const Skills = () => {
                   alt="Categories"
                 />
                 <h2 className="card-title text-center">Linux</h2>
-              </div>
-            </div>
-
-            <div className="card w-36 h-36 bg-base-100 shadow-xl transition-transform duration-300 hover:scale-110">
-              <div className="card-body flex flex-col items-center">
-                <img
-                  className="w-16 h-16"
-                  src="images/icon_firebase.png"
-                  alt="Categories"
-                />
-                <h2 className="card-title text-center">Firebase</h2>
               </div>
             </div>
 
