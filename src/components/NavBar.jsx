@@ -28,6 +28,7 @@ const Navbar = () => {
         <li className='text-black text-lg'><Link smooth to="#skills">Skills</Link></li>
         <li className='text-black text-lg'><Link smooth to="#experience">Experience</Link></li>
         <li className='text-black text-lg'><Link smooth to="#projects">Projects</Link></li>
+        <li className='text-black text-lg'><Link smooth to="#about">About</Link></li>
       </ul>
     </div>
   </div>
@@ -37,6 +38,7 @@ const Navbar = () => {
         <li className='text-black text-lg'><Link smooth to="#skills">Skills</Link></li>
         <li className='text-black text-lg'><Link smooth to="#experience">Experience</Link></li>
         <li className='text-black text-lg'><Link smooth to="#projects">Projects</Link></li>
+        <li className='text-black text-lg'><Link smooth to="#about">About</Link></li>
     </ul>
   </div>
   <div class="navbar-end"></div>

@@ -21,6 +21,7 @@ const App = () => {
             <ProfessionalExperience></ProfessionalExperience>
             {/* <Projects></Projects> */}
             <ImprovedProjectCard></ImprovedProjectCard>
+            <About></About>
             <Footer></Footer>
         </>
     );
