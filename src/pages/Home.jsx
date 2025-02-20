@@ -19,7 +19,7 @@ const Home = () => {
   });
 
   return (
-    <div id="home" className="px-5 pt-10">
+    <div id="home" className="px-5 pt-10 scroll-mt-20">
       <div className="flex justify-center">
         <div className="avatar">
           <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full">

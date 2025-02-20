@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-      <div id="about" className="mx-10 mb-10 min-h-2/3">
-          <div className="text-center pt-10 mb-20">
+      <div id="about" className="mx-10 scroll-mt-20 mb-10 min-h-2/3">
+          <div className="text-center pt-14 mb-20">
           <h1 className="text-3xl italic font-semibold text-blue-600">About Me</h1>
         </div>
       <div className="flex items-stretch">

@@ -3,8 +3,8 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ImprovedProjectCard = () => {
   return (
-    <div id="projects" className="mx-10 mb-10">
-      <div className="text-center pt-20 pb-10">
+    <div id="projects" className="mx-10 mb-0 pt-0 scroll-mt-20">
+      <div className="text-center pt-10 mb-10">
         <h1 className="text-3xl font-semibold italic text-blue-600 mb-3">Projects developed by me</h1>
 
       </div>
