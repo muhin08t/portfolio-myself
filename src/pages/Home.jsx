@@ -20,14 +20,14 @@ const Home = () => {
 
   return (
     <div id="home" className="px-5 pt-10 scroll-mt-20">
-      <div className="flex justify-center">
-        <div className="avatar">
+      <div className="flex flex-col md:flex-row justify-center">
+        {/* <div className="avatar">
           <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full">
             <img src="images/profile2.png" alt="Profile Image" />
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col justify-center ml-12">
+        <div className="flex flex-col w-full md:w-1/2  justify-center ml-12">
           <h3 className="text-xl text-black">Hi, There I'm </h3>
           <h1 className="text-4xl font-semibold pt-3">
             <span className="text-purple-400"> Mohiuddin</span> Bhuiyan
@@ -95,6 +95,10 @@ const Home = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        <div className="w-full md:w-1/2">
+        <img src="images/about_me_lg-3.png" alt="Developer Image" className="w-[250px] h-[200px] md:w-[300px] md:h-[250px] lg:w-[350px] lg:h-[300px] xl:w-[450px] xl:h-[320px] mt-10 ml-20 md:mt-0 rounded-lg" />
         </div>
       </div>
     </div>
