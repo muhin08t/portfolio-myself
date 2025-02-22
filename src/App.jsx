@@ -11,6 +11,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ImprovedProjectCard from './components/ImprovedProjectCard';
 import ProfessionalExperience from './components/ProfessionalExperience';
+import Contact from './components/Contact';
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
             {/* <Projects></Projects> */}
             <ImprovedProjectCard></ImprovedProjectCard>
             <About></About>
+            <Contact></Contact>
             <Footer></Footer>
         </>
     );
