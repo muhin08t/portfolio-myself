@@ -4,8 +4,9 @@ import Card from './Card';
 const Skills = () => {
     return (
       <div id='skills' className='scroll-mt-20'>
-        <div className="text-center pt-20 pb-2">
+        <div className="text-center pt-20 pb-5">
           <h1 className="text-3xl italic font-semibold text-blue-600">My Skills</h1>
+          <hr className="w-4/5 border-t border-black mx-auto mt-5" />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-14 m-10 mb-0">
 

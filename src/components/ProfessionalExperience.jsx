@@ -18,7 +18,7 @@ const ProfessionalExperience = () => {
     {
       role: "Career break",
       company: "Entrepreneur",
-      duration: "19/06/2019 – present",
+      duration: "19/06/2019 – 19/11/2023",
       description: "For family reasons, I left my job and moved to my hometown. Here, as an entreprenur, I started local business.",
     },
 
@@ -34,6 +34,7 @@ const ProfessionalExperience = () => {
     <div id="experience" className="mx-10 mb-0 scroll-mt-20">
            <div className="text-center pt-20 pb-10">
         <h1 className="text-3xl font-semibold italic text-blue-600 mb-3">Professional Experience</h1>
+        <hr className="w-4/5 border-t border-black mx-auto mt-5" />
 
       </div>
       {experiences.map((exp, index) => (

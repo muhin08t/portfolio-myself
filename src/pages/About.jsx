@@ -5,6 +5,7 @@ const About = () => {
       <div id="about" className="mx-10 scroll-mt-20 mb-10">
           <div className="text-center pt-14 mb-20">
           <h1 className="text-3xl italic font-semibold text-blue-600">About Me</h1>
+          <hr className="w-4/5 border-t border-black mx-auto mt-5" />
         </div>
       <div className="flex items-stretch">
         {/* Text Section */}

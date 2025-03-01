@@ -90,6 +90,7 @@ const Contact = () => {
           <h1 className="text-3xl italic font-semibold text-blue-600">
             Let's Connect
           </h1>
+          <hr className="w-4/5 border-t border-black mx-auto mt-5" />
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 flex flex-col mt-10">
